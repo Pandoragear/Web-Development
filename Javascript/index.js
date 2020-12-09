@@ -12,3 +12,12 @@ alert("World");
 // alert => function 
 // ("Hello") => Message 
 // ; => END 
+
+
+// Data type  => typeof();
+
+//String 
+alert("this is a string");
+
+//Data
+alert(8 + 9);
