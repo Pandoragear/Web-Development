@@ -21,3 +21,11 @@ alert("this is a string");
 
 //Data
 alert(8 + 9);
+
+
+// Variable 
+var myName = "Andy";
+
+var yourName = prompt("what is your name");
+
+alert("Hi " + yourName )
