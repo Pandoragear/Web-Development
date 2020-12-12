@@ -40,3 +40,6 @@ alert("you have written " + tweetCount + " characters, you " + (140 - tweetCount
 let name = "Andy"; 
 name.slice(0,1); 
 // This will show just the letter { A }
+
+// slice challenge 
+alert ( prompt (" Compose your tweeet: " ).slice(0, 140));
