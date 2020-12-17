@@ -43,3 +43,9 @@ name.slice(0,1);
 
 // slice challenge 
 alert ( prompt (" Compose your tweeet: " ).slice(0, 140));
+
+
+//////////////////////////////////////////////////////////////
+
+// .toUpperCase() 
+name.toUpperCase();
