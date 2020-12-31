@@ -33,3 +33,11 @@ function calcBottles(startingMoney, costPerbottles){
 
     return numberOfBottles;
 }
+
+
+function calcChange(startingAmount, costPerbottles) {
+    let change = startingAmount % costPerbottles;
+    return change;
+}
+
+getIce(5);
