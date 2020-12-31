@@ -1,0 +1,36 @@
+Function Challenge 
+
+Website: 
+http://stanford.edu/~cpiech/karel/ide.html 
+
+
+//////////////////////////////////////////////////////////
+
+Place Square in diagonal using function 
+
+Challenge: 
+
+function main(){
+   square();
+   nextDot();
+   nextDot();
+   nextDot();
+   
+}
+
+function square(){
+   putBeeper();
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+}
+
+function nextDot(){
+   turnRight();
+   move();
+   turnLeft();
+   move();
+   putBeeper();
+}
+
