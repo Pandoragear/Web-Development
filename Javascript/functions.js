@@ -15,3 +15,21 @@ function getMilk (bottles){
 }
 
 getMilk(2);
+
+///////////////////////////////////////
+//Out put and return Value 
+function getIce (money) {
+    return money % 1.5;
+}
+
+let change = getIce(4);
+
+console.log(change);
+
+/////////
+
+function calcBottles(startingMoney, costPerbottles){
+    let numberOfBottles = math.floor(startingMoney / costPerbottles);
+
+    return numberOfBottles;
+}
