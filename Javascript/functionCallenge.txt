@@ -34,3 +34,28 @@ function nextDot(){
    putBeeper();
 }
 
+
+
+////////////////////////////////////////////////////
+// create a function that tells us how many days/weeks/months we have left if we live until 90 years. 
+
+Notes
+// day = 365
+// weeks = 52
+// month =12
+
+
+
+function lifeInWeeks(age) {    
+    
+    //Write your code here.
+     age = prompt("what is your age");
+
+   let day = ((365 * 90) - (365 * age));
+   let weeks =((90 * 52) - (52 * age));
+   let months =((90 * 12) - (12 * age));
+   console.log("you have " + day + (" days, " + weeks + " weeks, and " + months + " months left." ));
+    
+}
+ lifeInWeeks();
+
