@@ -19,3 +19,4 @@ alert("moveLeft");
 alert("moveLeft");
 alert("enterHouse");
 
+``
