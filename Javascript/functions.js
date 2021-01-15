@@ -27,12 +27,11 @@ let change = getIce(4);
 console.log(change);
 
 /////////
-
-function getMilk (money) {
+function getMilk (money, costPerBottle) {
     //     var numberOfBottles = math.floor(money/1.5);
-        console.log("buy " + calcBottles(money, 1.5) + " bottles of milk");
+        console.log("buy " + calcBottles(money, costPerBottle) + " bottles of milk");
     
-        return calcChange(money, 1.5);
+        return calcChange(money, costPerBottle);
     }
     
     function calcBottles(startingMoney, costPerBottle) {
@@ -46,4 +45,4 @@ function getMilk (money) {
         return change;
     }
     
-    console.log("Hello master, here is your " + getMilk(5) + " change");
+    console.log("Hello master, here is your " + getMilk(5, 1.5) + " change");
