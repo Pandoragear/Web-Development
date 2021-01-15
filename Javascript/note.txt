@@ -1,3 +1,4 @@
+//Note for robot function 
 alert("leaveHouse");
 alert("moveRight");
 alert("moveRight");
