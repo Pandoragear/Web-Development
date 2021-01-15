@@ -28,16 +28,22 @@ console.log(change);
 
 /////////
 
-function calcBottles(startingMoney, costPerbottles){
-    let numberOfBottles = math.floor(startingMoney / costPerbottles);
-
-    return numberOfBottles;
-}
-
-
-function calcChange(startingAmount, costPerbottles) {
-    let change = startingAmount % costPerbottles;
-    return change;
-}
-
-getIce(5);
+function getMilk (money) {
+    //     var numberOfBottles = math.floor(money/1.5);
+        console.log("buy " + calcBottles(money, 1.5) + " bottles of milk");
+    
+        return calcChange(money, 1.5);
+    }
+    
+    function calcBottles(startingMoney, costPerBottle) {
+        var numberOfBottles = Math.floor(startingMoney/costPerBottle);
+    
+        return numberOfBottles;
+    }
+    
+    function calcChange(startingAmount, costPerBottle){
+        var change = startingAmount % costPerBottle;
+        return change;
+    }
+    
+    console.log("Hello master, here is your " + getMilk(5) + " change");
