@@ -4,6 +4,10 @@
 // < is Lesser than 
 // >= is Greater or Equal to 
 // <= is Lesser or Equal to
+// && And 
+// || OR
+// !  Not
+
 
 var a = 1;
 var b = "1";
@@ -16,3 +20,5 @@ if (a === b) {
 } else { 
     console.log('no');
 }
+
+
