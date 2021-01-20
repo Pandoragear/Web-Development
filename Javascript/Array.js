@@ -16,3 +16,16 @@ if (guestList.includes(guestName)) {
 // Element Arrays
 
 // code challenge - create an empty array and add a number number onto the array (ex array = [1, 2, 3, 4])
+
+var output = [];
+var count = 1;
+function fizzBuzz(){
+    
+output.push(count);
+count++;
+    console.log(output);
+}
+
+fizzBuzz();
+
+
