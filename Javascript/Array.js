@@ -28,4 +28,7 @@ count++;
 
 fizzBuzz();
 
+//////////////////
+// follow up challenge, 
+// for every array number of divided by 3 it should show the word { Fizz } and if it is divided by 5, it should show the word { Buzz }
 
