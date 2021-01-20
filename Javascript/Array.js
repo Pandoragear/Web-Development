@@ -10,3 +10,9 @@ if (guestList.includes(guestName)) {
 } else {
     alert("Access Deny")
 };
+
+/////////////////////////////////
+
+// Element Arrays
+
+// code challenge - create an empty array and add a number number onto the array (ex array = [1, 2, 3, 4])
