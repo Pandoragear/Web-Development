@@ -28,3 +28,13 @@ function fizzBuzz(){
     }
     console.log(output);
 }
+
+// state
+// while ( something is true) {
+    // do something
+// }
+
+// Iterate
+// for (i =0, i< 2, i++ ) {
+//     // do something
+// }
