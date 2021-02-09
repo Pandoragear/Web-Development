@@ -8,3 +8,7 @@
 
 // this target any that you select 
 // document.querySelector("a").style.color ="Green"; 
+
+
+// Challenge change just the button background color: 
+document.querySelector(".btn").style.backgroundColor ="red";
