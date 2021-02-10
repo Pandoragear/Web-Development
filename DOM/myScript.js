@@ -10,7 +10,7 @@
 // document.querySelector("a").style.color ="Green"; 
 
 // this target the class to add or remove 
-document.querySelector("button").classList.toggle("invisible");
+// document.querySelector("button").classList.toggle("invisible");
 
 // textContent give only the text and out 
 document.querySelector('h1').textContent="All Might";
@@ -18,3 +18,5 @@ document.querySelector('h1').textContent="All Might";
 // Challenge change just the button background color: 
 document.querySelector(".btn").style.backgroundColor ="red";
 
+//this taret the attribute "a"
+document.querySelector('a').setAttribute("href", 'https://www.bing.com');
