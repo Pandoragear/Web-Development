@@ -9,6 +9,10 @@
 // this target any that you select 
 // document.querySelector("a").style.color ="Green"; 
 
+// this target the class to add or remove 
+document.querySelector("button").classList.toggle("invisible");
+
 
 // Challenge change just the button background color: 
 document.querySelector(".btn").style.backgroundColor ="red";
+
