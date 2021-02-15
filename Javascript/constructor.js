@@ -5,3 +5,7 @@ function BellBoy( name, age, hasWorkPermit, languages ) {
     this.hasWorkPermit = hasWorkPermit;
     this.languages = languages; 
 }
+
+
+// example 
+var bellBoy1 = new BellBoy("Timmy", 19, true, ["English", "French"]);
