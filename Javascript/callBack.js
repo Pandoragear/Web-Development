@@ -1,6 +1,6 @@
-document.addEventListener("keypress", respondToKey(event));
+document.addEventListener("keypress", respondToKey(e));
 
-function respondToKey(event) {
+function respondToKey(e) {
     console.log("keypressed.");
 }
 
