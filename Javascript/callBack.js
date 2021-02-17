@@ -9,3 +9,16 @@ function respondToKey(e) {
 // $0.addEventListener("click", function(event ){
 //     console.log();
 // })
+
+function anotherAddEventListener(typeOfEvent, callback) {
+    // Detect Event code....
+    var eventThatHappened ={
+        eventType: "keypress",
+        key: "p",
+        durationOfKeypress: 2
+    }
+    if (eventThatHappened.eventType === typeOfEvent){
+    callback(eventThatHappened);
+    }
+}
+
